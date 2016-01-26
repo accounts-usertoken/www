@@ -15,10 +15,6 @@ log/*
 .node-gyp
 **/node_modules
 .npm*
-.nvm
-.nvmrc
-.pyenv
-.rvm
 .selected_editor
 shared/log
 .ssh
@@ -30,8 +26,11 @@ tmp
 .babel.json
 .git-*
 .meteor
-*.com
-dev
+.pyenv
 .python-history
+dev
 0.10.38
 iotupdates
+*.com
+*.org
+*.net

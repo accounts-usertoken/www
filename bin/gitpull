@@ -1,4 +1,6 @@
 #!/bin/bash
+[ -f ~/.profile ] && . ~/.profile
+
 DATE=`date`
 ROOT=/home/www
 LOG="$ROOT/log/gitpull.log"
@@ -7,6 +9,7 @@ PID=""
 skipsites=""
 
 sites="
+shell.usertoken.com
 "
 
 echo "Starting gitpull" > $LOG

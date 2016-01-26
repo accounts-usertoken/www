@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -f ~/.profile ] && . ~/.bashrc
+[ -f ~/.profile ] && . ~/.profile
 
 DATE=`date`
 ROOT=/home/www
@@ -8,6 +8,7 @@ LOG="$ROOT/log/runnode.log"
 PID=""
 
 sites="
+shell.usertoken.com
 "
 
 echo "$DATE : Starting run node check..." > $LOG

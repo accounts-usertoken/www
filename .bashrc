@@ -121,13 +121,16 @@ eval "$(direnv hook bash)"
 source ~/.rvm/scripts/rvm
 source ~/.gvm/scripts/gvm
 
-export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="$HOME/.local/n/bin:$PATH" # Add n to PATH for node scripting
 export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 
 [ -d /usr/local/nodejs ] && export PATH="/usr/local/nodejs/bin:$PATH"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 # local customizations
 export PATH="~/.local/bin:$PATH"
