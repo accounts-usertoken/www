@@ -116,6 +116,8 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$HOME/.meteor:$PATH"
 fi
 
+export GOROOT=$HOME/.gvm/go
+export PATH=$PATH:$GOROOT/bin
 
 eval "$(direnv hook bash)"
 source ~/.gvm/scripts/gvm
