@@ -8,7 +8,6 @@
 .gvm
 .local
 localhost
-log/*
 .meteorite
 .meteorsession
 .nave
