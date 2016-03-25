@@ -9,7 +9,7 @@ PID=""
 skipsites=""
 
 sites="
-shell.usertoken.com
+sinopia
 "
 
 echo "Starting gitpull" > $LOG
