@@ -27,6 +27,7 @@ tmp
 .meteor
 .pyenv
 .python-history
+.python-version
 dev
 0.10.38
 iotupdates
