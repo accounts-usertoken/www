@@ -10,6 +10,7 @@ skipsites=""
 
 sites="
 sinopia
+parse.usertoken.com
 "
 
 echo "Starting gitpull" > $LOG

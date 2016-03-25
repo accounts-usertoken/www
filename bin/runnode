@@ -9,6 +9,7 @@ PID=""
 
 sites="
 sinopia
+parse.usertoken.com
 "
 
 echo "$DATE : Starting run node check..." > $LOG
