@@ -8,7 +8,7 @@ LOG="$ROOT/log/runnode.log"
 PID=""
 
 sites="
-sinopia
+proxy
 parse.usertoken.com
 "
 
